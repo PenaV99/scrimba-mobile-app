@@ -31,7 +31,7 @@ onValue(listItems, function (snapshot) {
 
 addButtonEl.addEventListener("click", function () {
   let inputValue = inputFieldEl.value;
-  push(listItems, inputValue);
+  push(listItemsInDB, inputValue);
 
   appendItemToToDoListEl(inputValue);
 
